@@ -1,0 +1,111 @@
+.about-section {
+  padding: var(--spacing-2xl) 0;
+  background-color: var(--color-cream);
+  min-height: calc(100vh - 200px);
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+  color: var(--color-primary-dark);
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-block {
+  background-color: var(--color-white);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.about-block h2 {
+  color: var(--color-primary-dark);
+  margin-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: var(--spacing-sm);
+}
+
+.about-block p {
+  margin-bottom: var(--spacing-md);
+  line-height: 1.8;
+  color: var(--color-text-dark);
+}
+
+.about-block p:last-child {
+  margin-bottom: 0;
+}
+
+.founder-info {
+  margin-top: var(--spacing-md);
+}
+
+.founder-info h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-md);
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background-color: var(--color-cream-light);
+  border-radius: var(--radius-md);
+  transition: transform var(--transition-normal);
+}
+
+.contact-item:hover {
+  transform: translateX(4px);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.contact-item h4 {
+  margin: 0 0 var(--spacing-xs) 0;
+  color: var(--color-primary-dark);
+  font-size: 1.125rem;
+}
+
+.contact-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.contact-link:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-section {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .about-block {
+    padding: var(--spacing-lg);
+  }
+  
+  .about-title {
+    font-size: 2rem;
+  }
+}
+

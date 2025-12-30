@@ -1,0 +1,85 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cashews Brownie",
+      "price": 80,
+      "category": "Egg",
+      "image": "/images/products/cashews-egg.jpg",
+      "basePrice": 60
+    },
+    {
+      "id": 2,
+      "name": "Badam Brownie",
+      "price": 70,
+      "category": "Egg",
+      "image": "/images/products/badam-egg.jpg",
+      "basePrice": 60
+    },
+    {
+      "id": 3,
+      "name": "Walnut Brownie",
+      "price": 70,
+      "category": "Egg",
+      "image": "/images/products/walnut-egg.jpg",
+      "basePrice": 60
+    },
+    {
+      "id": 4,
+      "name": "KitKat Brownie",
+      "price": 60,
+      "category": "Egg",
+      "image": "/images/products/kitkat-egg.jpg",
+      "basePrice": 60
+    },
+    {
+      "id": 5,
+      "name": "Oreo Brownie",
+      "price": 70,
+      "category": "Egg",
+      "image": "/images/products/oreo-egg.jpg",
+      "basePrice": 60
+    },
+    {
+      "id": 6,
+      "name": "Cashew Brownie",
+      "price": 90,
+      "category": "Eggless",
+      "image": "/images/products/cashews-eggless.jpg",
+      "basePrice": 70
+    },
+    {
+      "id": 7,
+      "name": "Badam Brownie",
+      "price": 80,
+      "category": "Eggless",
+      "image": "/images/products/badam-eggless.jpg",
+      "basePrice": 70
+    },
+    {
+      "id": 8,
+      "name": "Walnut Brownie",
+      "price": 80,
+      "category": "Eggless",
+      "image": "/images/products/walnut-eggless.jpg",
+      "basePrice": 70
+    },
+    {
+      "id": 9,
+      "name": "KitKat Brownie",
+      "price": 70,
+      "category": "Eggless",
+      "image": "/images/products/kitkat-eggless.jpg",
+      "basePrice": 70
+    },
+    {
+      "id": 10,
+      "name": "Oreo Brownie",
+      "price": 80,
+      "category": "Eggless",
+      "image": "/images/products/oreo-eggless.jpg",
+      "basePrice": 70
+    }
+  ]
+}
+
