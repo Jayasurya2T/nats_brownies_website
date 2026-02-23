@@ -87,10 +87,10 @@ export function About() {
                 <div>
                   <h4>Email</h4>
                   <a 
-                    href="mailto:nats.brownies@example.com" 
+                    href="mailto:gtjayasurya@gmail.com" 
                     className="contact-link"
                   >
-                    nats.brownies@example.com
+                    gtjayasurya@gmail.com
                   </a>
                 </div>
               </div>
@@ -101,4 +101,5 @@ export function About() {
     </div>
   );
 }
+
 
